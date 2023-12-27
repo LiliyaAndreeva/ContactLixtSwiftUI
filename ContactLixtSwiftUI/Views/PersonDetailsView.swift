@@ -15,7 +15,7 @@ struct PersonDetailsView: View {
             Image(systemName: "person.fill")
                 .resizable()
                 .frame(width: 150, height: 150)
-                .padding(.leading, 70)
+                .padding(.horizontal, 70)
             
             HStack{
                 Image(systemName: "phone")
