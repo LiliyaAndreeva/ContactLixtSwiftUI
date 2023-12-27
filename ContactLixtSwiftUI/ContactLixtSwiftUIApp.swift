@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ContactLixtSwiftUIApp: App {
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(persons: Person.getPerson())
         }
     }
 }
